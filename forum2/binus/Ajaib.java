@@ -9,7 +9,7 @@ public class Ajaib {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan angka antara 1-100 : ");
         int angka = input.nextInt();
-        if (angka >= 1 && angka <=100){ // kondisi inputan
+        if (angka >= 1 && angka <=100){ 
             if (angka % 2 == 0){
                 if (angka >= 6 && angka <= 20){
                     System.out.print("Ajaib");
